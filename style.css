@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.hero {
+    background-image: url("./images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    width: 610px;
+    height: 100vh;
+}
