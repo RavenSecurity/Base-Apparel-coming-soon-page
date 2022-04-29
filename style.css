@@ -21,12 +21,13 @@ body {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    padding: 30px 100px 100px 100px;
+    padding: 80px 10px 250px 150px;
 }
 
 .container img {
-    height: 80px;
-    width: 100%
+    max-width: 50%;  
+    height: auto;  
+    margin-bottom: px;
 }
 
 .container h1 span {
@@ -38,28 +39,32 @@ body {
     font-size: 100px;
     color: var(--DarkGrayishRed);
     line-height: 80px;
+    margin-top: 200px;
 }
 
 .container label {
     font-size: 16px;
     color: var(--DesaturatedRed);
+    margin-top: -50px;
 }
 
 input {
     margin-top: 20px;
-    border: 1px solid var(--DarkGrayishRed);
-    border-radius: 20px;
-    padding: 10px;
+    border: 1px solid hsl(0, 6%, 24%);
+    border-radius: 60px;
+    padding: 20px;
 }
 
 input::placeholder {
     color: var(--DesaturatedRed);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
 }
 
 .hero {
     background-image: url("./images/hero-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 610px;
-    height: 100vh;
+    min-width: 610px;
+    height: auto;
 }
