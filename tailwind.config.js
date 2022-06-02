@@ -4,8 +4,10 @@ module.exports = {
     extend: {
       colors: {
         // Example
-      }
+      },
+      fontFamily: {
+        'josefin': ["'Josefin Sans'", 'sans-serif']
     },
   },
   plugins: [],
-}
+}}
