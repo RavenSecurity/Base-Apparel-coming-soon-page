@@ -9,3 +9,7 @@
     min-width: 610px;
     height: 600px;
 }
+
+section {
+    background-image: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+}
