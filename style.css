@@ -1,21 +1,62 @@
-body {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --DesaturatedRed: hsl(0, 36%, 70%);
+    --SoftRed: hsl(0, 93%, 68%);
+    --DarkGrayishRed: hsl(0, 6%, 24%);
 }
 
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 375px) {
+  
 .logo {
     background-image: url('/images/logo.svg');
     background-repeat: no-repeat;
-    width: 100%;
-    height: 2rem;
+    margin: 2rem;
     padding: 1rem;
-    
 }
 
 .hero {
     background-image: url('/images/hero-mobile.jpg');
-    width: 100%;
-    height: 200px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 16rem;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+section h1 {
+    font-size: 3rem;
+    letter-spacing: 0.7rem;
+    line-height: 3.3rem;
+    color: var(--DarkGrayishRed)
+}
+
+section h1 span {
+    font-weight: 300;
+    color: var(--DesaturatedRed);
+}
+
+section p {
+    color: var(--DesaturatedRed)
+}
+
+
+}
+
 
 /* Footer */
 .attribution { font-size: 11px; text-align: center; }
