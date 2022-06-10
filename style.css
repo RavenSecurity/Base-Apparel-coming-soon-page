@@ -154,7 +154,7 @@ section p {
 
 form {
     height: 30vw;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,7 +164,7 @@ form {
 .input {
     border: 1px solid var(--DesaturatedRed);
     border-radius: 30px;
-    width: 60vw;
+    width: 10rem;
     padding: 0.7rem;
     background: transparent;
     margin: 1rem;
