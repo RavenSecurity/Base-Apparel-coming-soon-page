@@ -106,7 +106,7 @@ input::placeholder {
 #error-message{
     display: none;
     color: red;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 @media only screen and (max-width: 375px) {
